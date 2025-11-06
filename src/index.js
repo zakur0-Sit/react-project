@@ -20,6 +20,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
+        <Route path="/" component={Home} />
         <Route index element={<Home/>}/>
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />

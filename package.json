@@ -1,7 +1,7 @@
 {
   "name": "licenta",
   "version": "0.1.0",
-  "homepage": "https://zakur0-sit.github.io/housekeeping",
+  "homepage": "https://zakur0-sit.github.io/react-project",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
