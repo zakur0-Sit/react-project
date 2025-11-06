@@ -15,11 +15,10 @@ import Admin from './pages/admin/admin';
 import ResetPassword from './pages/reset_password/reset_password';
 import App from './App';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="/login" element={<Login/>} />
