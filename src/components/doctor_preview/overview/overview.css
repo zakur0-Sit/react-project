@@ -1,0 +1,46 @@
+.overview, .location, .condition, .procedures, .reviews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.overview-content, .location-content, .condition-content, .procedures-content, .reviews-content
+{
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 50px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.overview-content img, .location-content img, .condition-content img, .procedures-content img, .reviews-content img
+{
+    width: 50px;
+    margin-right: 50px;
+}
+
+.overview-title, .location-title, .condition-title, .procedures-title, .reviews-title
+{
+    display: flex;
+    align-items: center;
+}
+
+.overview-title h3, .location-title h3, .condition-title h3, .procedures-title h3, .reviews-title h3
+{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #0F225E;
+}
+
+.overview-text 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

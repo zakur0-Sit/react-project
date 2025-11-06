@@ -1,0 +1,40 @@
+.account-info-card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info-card
+{
+    width: 90%;
+    padding: 10px;
+}
+
+.info-card h4
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #0F225E;
+}
+
+.info-card p
+{
+    font-size: 14px;
+    margin: 5px 0 0 0 ;
+    
+}
+
+.account-info-card img
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}

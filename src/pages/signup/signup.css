@@ -1,0 +1,11 @@
+.signup input
+{
+    width: 250px;
+    height: 45px;
+    margin: 10px;
+}
+
+.submit-button
+{
+    margin-top: 20px;
+}

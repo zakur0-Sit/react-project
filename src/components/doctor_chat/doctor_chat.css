@@ -1,0 +1,48 @@
+.doctor-chat
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #000;
+    width: 100%;
+}
+
+.doctor-chat img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.doctor-info
+{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.doctor-info h3
+{
+    margin: 0;
+    font-size: 18px;
+}
+
+.doctor-info p
+{
+    margin: 5px 0;
+    font-size: 16px;
+    color: #737373;
+}
+
+.doctor-chat p
+{
+    margin: 0;
+    font-size: 16px;
+    color: #737373;
+}
+
+.last-enter
+{
+    margin-bottom: 10px;
+}

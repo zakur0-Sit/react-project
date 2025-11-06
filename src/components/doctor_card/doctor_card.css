@@ -1,0 +1,115 @@
+.doctor-content
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-content
+{
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.doctor
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.doctor-img img
+{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.doctor-short-info
+{
+    width: 600px;
+}
+
+.doc-rating
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+
+.doc-rating-stars img
+{
+    width: 25px;
+}
+
+.doc-experience, .doc-site, .pacient-accept
+{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 250px;
+    
+}
+
+.doc-experience img, .doc-site img, .pacient-accept img
+{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.doctor-contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.doctor-contact .book
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #4B7AA5;
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.doctor-contact .phone
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    border: solid 3px #4B7AA5;
+    margin-top: 10px;
+}
+
+.doctor-contact .book img, .doctor-contact .phone img 
+{
+    width: 40px;
+}
+
+.doctor-contact .book p, .doctor-contact .phone p 
+{
+    font-size: 20px;
+}
+
+.book
+{
+    cursor: pointer;
+}

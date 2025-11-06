@@ -1,0 +1,45 @@
+.message
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.message img
+{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.message-expend-info
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message-expend-info h3
+{
+    margin: 0;
+    font-size: 18px;
+}
+
+.message-expend-info p
+{
+    margin: 0 10px;
+    font-size: 16px;
+    color: #737373;
+}
+
+.message-content> p
+{
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 15px 0 0;
+    border-radius: 5px;
+}

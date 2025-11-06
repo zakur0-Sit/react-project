@@ -1,0 +1,17 @@
+.reviews
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.reviews ol
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.reviews ol li
+{
+    margin-top: 10px;
+}
+

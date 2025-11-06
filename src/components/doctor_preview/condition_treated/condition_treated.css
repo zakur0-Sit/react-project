@@ -1,0 +1,23 @@
+.condition
+{
+    width: 100%;
+}
+
+.condition ol
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.condition ol li
+{
+    margin-top: 10px;
+}
+
+.condition p
+{
+    padding: 10px 0 0 10px;
+    margin: 0;
+    color: #0F225E;
+    cursor: pointer;
+}

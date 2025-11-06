@@ -1,0 +1,29 @@
+.doctor-preview-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F3F5F7;
+}
+
+.doctor-preview-section>img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    /* z-index: 0; */
+    top: 0;
+}
+
+.doctor-preview-content
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 170px;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,44 @@
+.in-process-card
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.in-process-card img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.in-process-card strong
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #0F225E;
+}
+
+.in-process-card h4
+{
+    font-weight: 600;
+    width: 50%;
+}
+
+.in-process-card button
+{
+    width: 20%;
+    padding: 10px;
+    background-color: #33CC99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
